@@ -1,0 +1,11 @@
+# Solo en PCs con tarjeta NVIDIA (instalar_windows.bat lo instala si encuentra nvidia-smi):
+# las bibliotecas de CUDA que necesita Whisper (faster-whisper / ctranslate2) para usar la tarjeta.
+nvidia-cublas-cu12==12.9.2.10
+nvidia-cuda-nvrtc-cu12==12.9.86
+nvidia-cudnn-cu12==9.28.1.4
+# Detección de caras en la tarjeta (plataforma.DetectorCarasGPU): onnx ajusta el modelo YuNet.
+# onnxruntime-directml (1.24.4) reemplaza a onnxruntime: lo instala aparte instalar_windows.bat
+# (desinstala onnxruntime y lo pone con --no-deps). pip avisa que piper-tts pide "onnxruntime":
+# es el mismo módulo, funciona igual (probado con Piper, Silero y Whisper).
+onnx==1.23.2
+ml-dtypes==0.6.0

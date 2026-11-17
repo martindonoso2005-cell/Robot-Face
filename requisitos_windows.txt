@@ -1,0 +1,12 @@
+# Lo que necesita el robot en Windows (lo instala instalar_windows.bat). Python 3.12 de 64 bits.
+anthropic==2.4.0
+opencv-python==5.0.0.93
+mediapipe==1.2.0
+numpy==2.5.4
+pyserial==3.5
+sounddevice==0.5.6
+soundfile==0.14.0
+pygame==2.6.1
+faster-whisper==1.2.1
+onnxruntime==1.31.1
+piper-tts==1.8.0

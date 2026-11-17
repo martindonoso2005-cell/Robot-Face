@@ -1,0 +1,8 @@
+RobotFace para Windows
+
+1. Instala Python 3.12 (64 bits) desde python.org, marcando "Add python.exe to PATH".
+2. Crea el archivo clave_anthropic.txt en esta carpeta con tu clave de la API de Anthropic.
+3. Doble clic en instalar_windows.bat (una sola vez).
+4. Doble clic en pagina.bat y aprieta "Encender robot".
+
+La guia completa esta en INSTALAR_WINDOWS.md
